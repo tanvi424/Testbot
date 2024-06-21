@@ -19,7 +19,6 @@ def role_to_streamlit(role):
 if "chat" not in st.session_state:
     st.session_state.chat = model.start_chat(history = [])
 
-
 # Display Form Title
 st.title("Chat With Tanvi !")
 
