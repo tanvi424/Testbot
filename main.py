@@ -3,7 +3,6 @@ import os
 import google.generativeai as genai
 import creds
 
-
 genai.configure(api_key=creds.api_key)
 model = genai.GenerativeModel('gemini-pro')
 
